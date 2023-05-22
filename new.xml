@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<person>
+  <fullname>Marlen Abliakimov</fullname>
+  <age>34</age>
+  <pets>
+  <dog>1</dog>
+  </pets>
+  <desiredSalary>5000$</desiredSalary>
+</person>
