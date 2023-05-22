@@ -1,14 +1,12 @@
-<>[A[B[Dskill>[Ds>
-<skill>SoftwareTestingTheory<>[D/skill>	
-<>[Df	fskill>LinuxTerminal</skill>
+<Skills>
+<skill>SoftwareTestingTheory</skill>	
+<skill>LinuxTerminal</skill>
 <skill>GitBash</skill>
 <skill>GitHun</skill>
 <skill>DevTools</skill>
-<skill>SQL<skill[D[D[D[D[D/skill>
+<skill>SQL<skill</skill>
 <skill>Postman</skill>
 <skill>Jmeter</skill>
 <skill>Fiddler</skill>
 <skill>Python</skill>
 </skills>
-
-[3~[3~[A[3~[3~[3~[3~[3~[3~[3~
