@@ -74,7 +74,6 @@
 - *__CTRL+C__*
 ### __12. Отправить сразу 2 файла на внешний репозиторий.__
 - *`git add . && git commit -m "add preferences.xml and skills.xml" && git push`*
-- 
 ### __13. На веб интерфейсе создать файл bug_report.xml.__
 - *В репозитории __XML__ нажать __Add file__ и выбрать __Create new file.__*
 -  *В поле __Name your file__ ввести __bug_report.xml.__*
