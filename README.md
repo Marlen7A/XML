@@ -83,31 +83,29 @@
 ### __15. На веб интерфейсе модифицировать файл bug_report.xml, добавить баг репорт в формате XML.__
 - *Открыть файл __bug_report.xml__ нажать на кнопку __Edid this file__ *
  ```
-{
-    "ID": "123",
-    "Severity": "Critical",
-    "Priority": "High",
-    "Status": "New",
-    "Title": "Нажатие кнопки 'Контакты' на главной странице не перенаправляет на страницу Контакты",
-    "Project": "Интернет-магазин 'Колесо'",
-    "STR": [
-             "1. Зайти на главную страницу сайта (ссылка_сайта)",
-             "2. Нажать кнопку Контакты"
-    ],
-    "Enviroment": {
-                "OS": "Windows 10 x64 build 19045.2965",
-                "Browser": "Google Chrome v113.0.5672.93 x64 bit"
-    },
-    "Component": "Кнопка Контакты",
-    "Actual result": "Нажатие кнопки Контакты НЕ перенаправляет на страницу Контакты",
-    "Expected result": "Нажатие кнопки Контакты перенаправляет на страницу Контакты",
-    "Attachments": "ссылка_на_картинку_или_видео_с_багом"
-    "Author": "Марлен Аблякимов",
-}
+<?xml version="1.0"?>
+<bugReport>
+<ID>123</ID>
+<Severity>Critical</Severity>
+<Priority>High</Priority>
+<Status>New</Status>
+<Title>Нажатие кнопки 'Контакты' на главной странице не перенаправляет на страницу Контакты</Title>
+<Project>Интернет-магазин 'Колесо'</Project>
+  <STR>
+     <step>1. Зайти на главную страницу сайта (ссылка сайта)</step>
+     <step>2. Нажать кнопку 'Контакты'</step>
+  </STR>
+    <Enviroment>
+      <OS>Windows 10 x64 build 19045.2965</OS>
+      <Browser>Google Chrome v113.0.5672.93 x64 bit</Browser>
+    </Enviroment>
+ <Component>Кнопка 'Контакты'</Component>
+ <ActualResult>Нажатие кнопки 'Контакты' не перенаправляет на страницу Контакты</ActualResult>
+ <ExpectedResult>Нажатие кнопки 'Контакты' перенаправляет на страницу Контакты</ExpectedResult>
+ <Attachments>Cсылка на картинку или видео с багом</Attachments>
+ <Author>Марлен Аблякимов</Author>
+ </bugReport>
 ```
-
-
-
 ### __16. Сделать Commit changes (сохранить) изменения на веб интерфейсе.__
 -  *Нажать  __Commit changes.__*
 ### __17. Синхронизировать внешний и локальный репозиторий XML.__
